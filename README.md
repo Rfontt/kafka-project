@@ -19,3 +19,7 @@ kafka-console-consumer --bootstrap-server=localhost:9092 --topic=test
 ```
 kafka-console-consumer --bootstrap-server=localhost:9092 --topic=test --from-beginning
 ```
+
+```
+kafka-console-consumer --bootstrap-server=localhost:9092 --topic=test --group=x
+```
